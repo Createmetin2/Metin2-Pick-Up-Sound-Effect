@@ -30,7 +30,7 @@
 			return;
 		 // -1: all subtypes
 		 // don't forget to add #include <tuple>
-		const std::vector<std::tuple<BYTE, BYTE, std::string>> pickup {
+		static const std::vector<std::tuple<BYTE, BYTE, std::string>> pickup {
 			{ CItemData::ITEM_TYPE_ELK, -1, "money.wav" },
 			{ CItemData::ITEM_TYPE_WEAPON, -1, "pickup_item_in_inventory.wav" },
 			{ CItemData::ITEM_TYPE_ARMOR, CItemData::ARMOR_BODY, "bracelet.wav" },
